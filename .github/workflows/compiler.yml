@@ -18,7 +18,7 @@ on:
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/bm0x/twrp_device_samsung_r8q'
+        default: 'https://github.com/bm0x/twrp_device_samsung_r8s'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
@@ -26,11 +26,11 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/samsung/r8q'
+        default: 'device/samsung/r8s'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'r8q'
+        default: 'r8s'
 
 env:
   TZ: Asia/Shanghai
